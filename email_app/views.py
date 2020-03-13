@@ -18,7 +18,7 @@ from sendgrid.helpers.mail import Mail
 
 import os
 
-API_KEY="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"
+
 
 
 '''
