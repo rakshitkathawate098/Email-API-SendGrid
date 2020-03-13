@@ -3,16 +3,19 @@ This is the EMAIL API to send Emails
 CLONE OR DOWNLOAD THE COMPLETE PROJECT
 and then run following steps
 
-1. Export environment Variables :
-echo "export SENDGRID_API_KEY='YOUR_API_KEY'" > sendgrid.env
-echo "sendgrid.env" >> .gitignore
-source ./sendgrid.env
+a. Export environment Variables :
+  1. echo "export SENDGRID_API_KEY='YOUR_API_KEY'" > sendgrid.env
+  2. echo "sendgrid.env" >> .gitignore
+  3. source ./sendgrid.env
 
-2. Install library
-pip install sendgrid
+b. Install library : ```pip install sendgrid```
 
-3. python manage.py makemigrations
-4. python manage.py migrate
-5. python manage.py runserver 8080
+c. ```python manage.py makemigrations```
 
-6. copy the url seen in the terminal after above step
+d. ```python manage.py migrate```
+
+e. ```python manage.py runserver 8080```
+
+f. copy the url seen in the terminal after above step ex: http://127.0.0.1:8080/ in web broeser
+
+g. now extend the url with address http://127.0.0.1:8080/email/get_email to see the email form
