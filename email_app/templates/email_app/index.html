@@ -1,0 +1,9 @@
+{% if email_list %}
+    <ul>
+    {% for email in email_list %}
+        <p> EMAIL  "{{email.content}}"</p>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
