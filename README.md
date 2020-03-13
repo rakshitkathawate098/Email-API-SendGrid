@@ -1,5 +1,7 @@
 # Email-API-SendGrid
 This is the EMAIL API to send Emails
+CLONE OR DOWNLOAD THE COMPLETE PROJECT
+and then run following steps
 
 1. Export environment Variables :
 echo "export SENDGRID_API_KEY='YOUR_API_KEY'" > sendgrid.env
